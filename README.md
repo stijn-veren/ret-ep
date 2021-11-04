@@ -1,3 +1,16 @@
+# React Essentials
+
+## Learning Project
+
+**React.js Essential Training by Eve Porcello:** https://www.linkedin.com/learning/react-js-essential-training \
+**Projects List:** https://github.com/stijn-veren/projects-list
+
+## Resources
+
+...
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
