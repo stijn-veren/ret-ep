@@ -1,13 +1,7 @@
-import React from 'react'
 import ReactDOM from 'react-dom'
+
+import App from './App'
+
 import './index.css'
 
-ReactDOM.render(
-  <ul>
-    <li>Monday</li>
-    <li>Tuesday</li>
-    <li>Wednesday</li>
-    <li>Thursday</li>
-  </ul>,
-  document.getElementById('root')
-)
+ReactDOM.render(<App />, document.getElementById('root'))
