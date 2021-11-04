@@ -36,6 +36,9 @@ const dishes = [
   'Minestrone',
 ]
 
+const dishObjects = dishes.map((dish, i) => ({ id: i, title: dish }))
+console.log(dishObjects)
+
 function App() {
   return (
     <div className="App">
