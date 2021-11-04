@@ -13,8 +13,8 @@ function Main(props) {
     <section>
       <p>We serve the most {props.adjective} food around.</p>
       <ul style={{ textAlign: 'left' }}>
-        {props.dishes.map((dish, i) => (
-          <li key={i}>{dish}</li>
+        {props.dishes.map((dish) => (
+          <li key={dish.id}>{dish.title}</li>
         ))}
       </ul>
     </section>
@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App">
       <Header name="Candy" />
-      <Main adjective={<b>delicious</b>} dishes={dishes} />
+      <Main adjective={<b>delicious</b>} dishes={dishObjects} />
       <Footer year={new Date().getFullYear()} />
     </div>
   )
